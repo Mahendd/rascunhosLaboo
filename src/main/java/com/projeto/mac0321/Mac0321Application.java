@@ -1,5 +1,9 @@
 package com.projeto.mac0321;
 
+import models.TestModel;
+
+import java.util.ArrayList;
+
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -17,6 +21,16 @@ public class Mac0321Application {
 	@GetMapping("/hello")
 	public String hello(@RequestParam(value = "name", defaultValue = "World") String name) {
 		return String.format("Hello %s!", name);
+	}
+	
+	@GetMapping("/test")
+	public ArrayList<TestModel> test() {
+		ArrayList<TestModel> models = new ArrayList<>();
+		models.add(new TestModel("Rodrigo", "Marcolin", 18));
+		models.add(new TestModel("Nome", "Sobrenome", 20));
+		models.add(new TestModel("Testêncio", "Testador", 9999));
+		
+		return models;
 	}
 
 }

@@ -1,0 +1,39 @@
+.bodyContainer {
+    min-height: 100vh;
+    flex: 1;
+    display: grid;
+    grid-template-areas: 
+    "header"
+    "main"
+    "footer";
+    margin: 0;
+    grid-template-rows: 6.25rem 1fr 6.25rem;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-area: header;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    font-size: 3rem;
+}
+
+.subtitle {
+    font-size: 1.5rem;
+}

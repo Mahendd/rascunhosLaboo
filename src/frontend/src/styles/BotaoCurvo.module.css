@@ -1,0 +1,13 @@
+.BotaoCurvo {
+    border-radius: 500px;
+    color: var(--main-font-color);
+    background-color: var(--main-medium-color);
+    border: 0px;
+    font-size: x-large;
+    padding: 10px;
+    transition: background-color 0.5s;
+}
+
+.BotaoCurvo:hover {
+    background-color: var(--main-lighter-color);
+}
