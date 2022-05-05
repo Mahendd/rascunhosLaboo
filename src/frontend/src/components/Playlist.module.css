@@ -10,7 +10,6 @@
     max-width: 80vw;
     width: 80vw;
     min-width: 500px;
-    margin-bottom: 1rem;
 }
 
 .fade_in {
@@ -52,4 +51,10 @@
 }
 .body {
     grid-area: body;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    display: grid;
+    grid-template-columns: 0.3fr 0.3fr 0.15fr;
+
 }
