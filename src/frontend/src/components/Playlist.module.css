@@ -1,0 +1,32 @@
+.playlist {
+    display: grid;
+    grid-template-areas: "avatar body";
+    grid-template-columns: 6.25rem 1fr;
+    background-color: var(--main-medium-dark-color);
+    border-radius: 2rem;
+    max-width: 80vw;
+    width: 80vw;
+    min-width: 500px;
+    border: 2px solid red;
+}
+
+.avatarRegion {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-area: avatar;
+    background-color: var(--main-lighter-dark-color);
+    border: 2px dashed white;
+    border-radius: 50%;
+    height: 6.25rem;
+    margin: 1rem;
+}
+
+.avatar {
+    width: 2rem;
+    height: 2rem;
+}
+.body {
+    grid-area: body;
+    border: 2px dashed limegreen;
+}

@@ -1,8 +1,7 @@
-import style from "../styles/Index.module.css"
-
+import styles from "../styles/Index.module.css"
 export default function Footer(props) {
     return (
-        <footer className={style.footer}>
+        <footer className={styles.footer}>
             {props.children}
         </footer>
     )

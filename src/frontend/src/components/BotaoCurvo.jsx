@@ -1,10 +1,10 @@
-import { Component } from "react";
-import style from "../styles/BotaoCurvo.module.css"
+import Link from "next/link"
+import styles from "./BotaoCurvo.module.css"
 
-export default class Botao extends Component {
-    render() {
-        return (
-            <button className={style.BotaoCurvo}>{this.props.name}</button>
-        )
-    }
+export default function BotaoCurvo(props) {
+    return (
+        <Link href={props.to}>
+            <button className={styles.button}>{props.children}</button>
+        </Link>
+    )
 }

@@ -1,5 +1,17 @@
-export default function Playlists () {
+import BodyGrid from "../components/BodyGrid"
+import Header from "../components/Header"
+import Main from "../components/Main"
+import Footer from "../components/Footer"
+import Playlist from "../components/Playlist"
+export default function Playlists() {
     return (
-        <h1>Hello</h1>
+        <BodyGrid>
+          <Header>
+            <h1>Minhas Playlists</h1>
+          </Header>
+          <Main>
+            <Playlist />
+          </Main>
+        </BodyGrid>
     )
 }

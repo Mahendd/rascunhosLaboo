@@ -1,0 +1,13 @@
+.button{
+    border-radius: 50px;
+    background-color: var(--main-medium-dark-color);
+    color: var(--main-font-color);
+    border: 0px;
+    font-size: x-large;
+    transition: background-color 0.5s;
+    padding: 0.625rem;
+}
+
+.button:hover {
+    background-color: var(--main-lighter-dark-color);
+}

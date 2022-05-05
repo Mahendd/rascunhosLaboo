@@ -1,31 +1,23 @@
-import Head from "next/head";
 import BotaoCurvo from "../components/BotaoCurvo"
-import style from "../styles/Index.module.css"
+import styles from "../styles/Index.module.css"
+import Footer from "../components/Footer"
 import Header from "../components/Header"
 import Main from "../components/Main"
-import Footer from "../components/Footer"
+import BodyGrid from "../components/BodyGrid"
 
 export default function Index() {
   return (
-    <>
-      <Head>
-        <title>Musicaler</title>
-      </Head>
-
-      <div className={style.bodyContainer}>
-        <Header>
-          Musicaler
-        </Header>
-        <Main>
-          <h2 className={style.subtitle}>Todas as suas músicas. Um só lugar.</h2>
-          <Link>
-            <BotaoCurvo name="Comece agora"/>
-          </Link>
-        </Main>
-        <Footer>
-          O melhor gerenciador musical
-        </Footer>
-      </div>
-    </>
-  );
+    <BodyGrid>
+      <Header>
+        <h1>Musicaler</h1>
+      </Header>
+      <Main>
+        <h2>Todas as suas músicas. Um só lugar.</h2>
+        <BotaoCurvo to="/playlists">Comece agora</BotaoCurvo>
+      </Main>
+      <Footer>
+        <p>O melhor gerenciador musical</p>
+      </Footer>
+    </BodyGrid>
+  )
 }
