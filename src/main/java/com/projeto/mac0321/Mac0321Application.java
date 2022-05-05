@@ -26,7 +26,7 @@ public class Mac0321Application {
 	@GetMapping("/test")
 	public ArrayList<TestModel> test() {
 		ArrayList<TestModel> models = new ArrayList<>();
-		models.add(new TestModel("Rodrigo", "Marcolin", 18));
+		models.add(new TestModel("Olá", "Mundo", 0));
 		models.add(new TestModel("Nome", "Sobrenome", 20));
 		models.add(new TestModel("Testêncio", "Testador", 9999));
 		
