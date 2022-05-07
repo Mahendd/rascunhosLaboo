@@ -1,14 +1,23 @@
 import BodyGrid from "../components/BodyGrid"
 import Header from "../components/Header"
-import Main from "../components/Main"
-import Footer from "../components/Footer"
 import Playlist from "../components/Playlist"
 import styles from "../styles/Playlists.module.css"
 import Stack from "@mui/material/Stack"
 import Button from "@mui/material/Button"
+import Navbar from "../components/Navbar"
+import Navbtn from '../components/Navbtn';
 
 export default function Playlists() {
     return (
+      <>
+        <Navbar>
+          <Navbtn to="#">
+            Busca
+          </Navbtn>
+          <Navbtn to="#" selected>
+            Playlists
+          </Navbtn>
+        </Navbar>
         <BodyGrid>
           <Header>
             <h1>Minhas Playlists</h1>
@@ -24,6 +33,7 @@ export default function Playlists() {
             </Stack>
           </main>
         </BodyGrid>
+      </>
     )
 }
 
