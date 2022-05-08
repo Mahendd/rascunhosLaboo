@@ -1,6 +1,7 @@
 import Avatar from "@mui/material/Avatar"
 import styles from "./Playlist.module.css"
 import Button from "@mui/material/Button"
+import Link from "next/link"
 // A playlist recebe uma URL de avatar
 // um título
 export default function Playlist(props) {
@@ -12,7 +13,9 @@ export default function Playlist(props) {
         <div className={styles.body}>
           <h2>{props.title}</h2>
           <h3>{props.qtmusicas} músicas</h3>
-          <Button variant="outlined" color="success">Ver músicas</Button>
+          <Link href={props.to}>
+            <Button variant="outlined" color="success">Ver músicas</Button>
+          </Link>
         </div>
       </div>
     )
