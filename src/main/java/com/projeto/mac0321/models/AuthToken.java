@@ -1,4 +1,4 @@
-package models;
+package com.projeto.mac0321.models;
 
 public class AuthToken {
     public AuthToken(){

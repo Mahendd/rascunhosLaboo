@@ -1,4 +1,4 @@
-package params;
+package com.projeto.mac0321.params;
 
 public class AuthorizeParams {
    public String client_id = "4393b004b1b343d3a7700b5c566041f0";
