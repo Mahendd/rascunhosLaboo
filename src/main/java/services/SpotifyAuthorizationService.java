@@ -9,7 +9,7 @@ public class SpotifyAuthorizationService {
 
     }
     public AuthToken call(){
-
+//        implement comunication with spotify api
     return AuthToken;
     }
 }
