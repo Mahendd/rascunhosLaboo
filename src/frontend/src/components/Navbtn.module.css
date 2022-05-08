@@ -1,0 +1,9 @@
+.selected {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.botao {
+    cursor: pointer;
+    font-size: x-large;
+}

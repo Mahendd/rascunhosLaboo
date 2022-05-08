@@ -1,0 +1,35 @@
+.navbar {
+    display: flex;
+    height: 6.25rem;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.buttons p {
+    margin: 0 1rem;
+    font-size: x-large;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.userSpace {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.user {
+    height: 4.25rem;
+    width: 4.25rem;
+}
