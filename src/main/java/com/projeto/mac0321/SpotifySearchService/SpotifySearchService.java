@@ -19,12 +19,12 @@ public class SpotifySearchService {
                 .setRedirectUri(redirectURI)
                 .build();
     }
-    
+
     public void setAccessToken(String accessToken) {
         spotifyApi.setAccessToken(accessToken);
     }
 
-    SearchResult searchItem(String searchTerm, String type) {
+    public SearchResult searchItem(String searchTerm, String type) {
         final SearchItemRequest searchItemRequest = spotifyApi.searchItem(searchTerm, type)
                 .build();
 

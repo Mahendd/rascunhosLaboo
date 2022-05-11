@@ -33,7 +33,7 @@ public class SpotifyPlaylistService {
         spotifyApi.setAccessToken(accessToken);
     }
 
-    Playlist createPlaylist(String ownerId, String playlistName) {
+    public Playlist createPlaylist(String ownerId, String playlistName) {
         final CreatePlaylistRequest createPlaylistRequest = spotifyApi.createPlaylist(ownerId, playlistName)
                 .build();
         try {
@@ -44,7 +44,7 @@ public class SpotifyPlaylistService {
 
     }
 
-    String removePlaylist(String ownerId, String playlistId) { // Doesnt remove, just unfollows
+    public String removePlaylist(String ownerId, String playlistId) { // Doesnt remove, just unfollows
         final UnfollowPlaylistRequest unfollowPlaylistRequest = spotifyApi.unfollowPlaylist(ownerId, playlistId)
                 .build();
         try {
@@ -55,7 +55,7 @@ public class SpotifyPlaylistService {
 
     }
 
-    Paging<PlaylistSimplified> listPlaylists(String usuarioId) {
+    public Paging<PlaylistSimplified> listPlaylists(String usuarioId) {
         final GetListOfUsersPlaylistsRequest getListOfUsersPlaylistsRequest = spotifyApi.getListOfUsersPlaylists(usuarioId)
                 .build();
         try {
@@ -65,7 +65,7 @@ public class SpotifyPlaylistService {
         }
     }
 
-    SnapshotResult insertItems(String[] uris, String playlistId) {
+    public SnapshotResult insertItems(String[] uris, String playlistId) {
         final AddItemsToPlaylistRequest addItemsToPlaylistRequest = spotifyApi.addItemsToPlaylist(playlistId, uris)
                 .build();
         try {
@@ -76,7 +76,7 @@ public class SpotifyPlaylistService {
 
     }
 
-    SnapshotResult removeItems(JsonArray tracks, String playlistId) {
+    public SnapshotResult removeItems(JsonArray tracks, String playlistId) {
         final RemoveItemsFromPlaylistRequest removeItemsFromPlaylistRequest = spotifyApi.removeItemsFromPlaylist(playlistId, tracks)
                 .build();
         try {
