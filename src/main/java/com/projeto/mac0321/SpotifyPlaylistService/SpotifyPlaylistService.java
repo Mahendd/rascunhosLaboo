@@ -11,10 +11,7 @@ import se.michaelthelin.spotify.model_objects.specification.Paging;
 import se.michaelthelin.spotify.model_objects.specification.Playlist;
 import se.michaelthelin.spotify.model_objects.specification.PlaylistSimplified;
 import se.michaelthelin.spotify.requests.data.follow.legacy.UnfollowPlaylistRequest;
-import se.michaelthelin.spotify.requests.data.playlists.AddItemsToPlaylistRequest;
-import se.michaelthelin.spotify.requests.data.playlists.CreatePlaylistRequest;
-import se.michaelthelin.spotify.requests.data.playlists.GetListOfUsersPlaylistsRequest;
-import se.michaelthelin.spotify.requests.data.playlists.RemoveItemsFromPlaylistRequest;
+import se.michaelthelin.spotify.requests.data.playlists.*;
 
 public class SpotifyPlaylistService {
     private final SpotifyApi spotifyApi;
@@ -55,11 +52,20 @@ public class SpotifyPlaylistService {
 
     }
 
-    public Paging<PlaylistSimplified> listPlaylists(String usuarioId) {
-        final GetListOfUsersPlaylistsRequest getListOfUsersPlaylistsRequest = spotifyApi.getListOfUsersPlaylists(usuarioId)
+    public Paging<PlaylistSimplified> listPlaylists(String userId) {
+        final GetListOfUsersPlaylistsRequest getListOfUsersPlaylistsRequest = spotifyApi.getListOfUsersPlaylists(userId)
                 .build();
         try {
             return getListOfUsersPlaylistsRequest.execute();
+        } catch (IOException | SpotifyWebApiException | ParseException e) {
+            return null;
+        }
+    }
+
+    public Playlist getPlaylist(String playlistId) {
+        final GetPlaylistRequest getPlaylistRequest = spotifyApi.getPlaylist(playlistId).build();
+        try {
+            return getPlaylistRequest.execute();
         } catch (IOException | SpotifyWebApiException | ParseException e) {
             return null;
         }

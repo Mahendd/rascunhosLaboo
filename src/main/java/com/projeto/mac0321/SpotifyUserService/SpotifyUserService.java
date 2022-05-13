@@ -1,18 +1,20 @@
-package com.projeto.mac0321.SpotifySearchService;
+package com.projeto.mac0321.SpotifyUserService;
 
 import org.apache.hc.core5.http.ParseException;
 import se.michaelthelin.spotify.SpotifyApi;
 import se.michaelthelin.spotify.exceptions.SpotifyWebApiException;
 import se.michaelthelin.spotify.model_objects.special.SearchResult;
+import se.michaelthelin.spotify.model_objects.specification.User;
 import se.michaelthelin.spotify.requests.data.search.SearchItemRequest;
+import se.michaelthelin.spotify.requests.data.users_profile.GetCurrentUsersProfileRequest;
 
 import java.io.IOException;
 import java.net.URI;
 
-public class SpotifySearchService {
+public class SpotifyUserService {
     private final SpotifyApi spotifyApi;
 
-    public SpotifySearchService(String clientId, String clientSecret, URI redirectURI) {
+    public SpotifyUserService(String clientId, String clientSecret, URI redirectURI) {
         spotifyApi = new SpotifyApi.Builder()
                 .setClientId(clientId)
                 .setClientSecret(clientSecret)
@@ -26,13 +28,12 @@ public class SpotifySearchService {
 
     // To-do: Exception handling
     //		  set adequate access token before each operation
-
-    public SearchResult searchItem(String searchTerm, String type) {
-        final SearchItemRequest searchItemRequest = spotifyApi.searchItem(searchTerm, type)
+    public User getCurrentUser() {
+        final GetCurrentUsersProfileRequest getCurrentUsersProfileRequest = spotifyApi.getCurrentUsersProfile()
                 .build();
 
         try {
-            return searchItemRequest.execute();
+            return getCurrentUsersProfileRequest.execute();
         } catch (IOException | SpotifyWebApiException | ParseException e) {
             return null;
         }

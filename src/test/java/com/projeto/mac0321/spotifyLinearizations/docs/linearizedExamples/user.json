@@ -1,0 +1,19 @@
+{
+  "country": "BR",
+  "displayName": "TaiShan",
+  "email": "raul.tai@usp.br",
+  "href": "https://api.spotify.com/v1/users/22jflqpejdlh5idykdtcgzj3i",
+  "id": "22jflqpejdlh5idykdtcgzj3i",
+  "product": "PREMIUM",
+  "type": "USER",
+  "uri": "spotify:user:22jflqpejdlh5idykdtcgzj3i",
+  "images": [],
+  "externalUrls": {
+    "externalUrls": {
+      "spotify": "https://open.spotify.com/user/22jflqpejdlh5idykdtcgzj3i"
+    }
+  },
+  "followers": {
+    "total": 3
+  }
+}

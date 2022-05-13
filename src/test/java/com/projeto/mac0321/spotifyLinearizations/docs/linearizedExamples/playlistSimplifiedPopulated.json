@@ -1,0 +1,48 @@
+{
+  "collaborative": false,
+  "publicAccess": false,
+  "href": "https://api.spotify.com/v1/playlists/2l3TWr3qJHTYMAXmMmGhEm",
+  "id": "2l3TWr3qJHTYMAXmMmGhEm",
+  "name": "Tiro Ao Álvaro",
+  "snapshotId": "MTcsY2E1NTAxZDEyZTdiOTY5NmMxZjFkYWEzMDZlOTdmOWFlMzRiOTIwYw\u003d\u003d",
+  "type": "PLAYLIST",
+  "uri": "spotify:playlist:2l3TWr3qJHTYMAXmMmGhEm",
+  "owner": {
+    "displayName": "TaiShan",
+    "href": "https://api.spotify.com/v1/users/22jflqpejdlh5idykdtcgzj3i",
+    "id": "22jflqpejdlh5idykdtcgzj3i",
+    "type": "USER",
+    "uri": "spotify:user:22jflqpejdlh5idykdtcgzj3i",
+    "externalUrls": {
+      "externalUrls": {
+        "spotify": "https://open.spotify.com/user/22jflqpejdlh5idykdtcgzj3i"
+      }
+    }
+  },
+  "images": [
+    {
+      "height": 640,
+      "url": "https://mosaic.scdn.co/640/ab67616d0000b2732253c41bfeac02997def39e2ab67616d0000b2735c3f7e4eefffbcfcc3efabbdab67616d0000b273686c29818cd37e585c48e7efab67616d0000b273d0f2985814178dda1665b1e8",
+      "width": 640
+    },
+    {
+      "height": 300,
+      "url": "https://mosaic.scdn.co/300/ab67616d0000b2732253c41bfeac02997def39e2ab67616d0000b2735c3f7e4eefffbcfcc3efabbdab67616d0000b273686c29818cd37e585c48e7efab67616d0000b273d0f2985814178dda1665b1e8",
+      "width": 300
+    },
+    {
+      "height": 60,
+      "url": "https://mosaic.scdn.co/60/ab67616d0000b2732253c41bfeac02997def39e2ab67616d0000b2735c3f7e4eefffbcfcc3efabbdab67616d0000b273686c29818cd37e585c48e7efab67616d0000b273d0f2985814178dda1665b1e8",
+      "width": 60
+    }
+  ],
+  "tracks": {
+    "href": "https://api.spotify.com/v1/playlists/2l3TWr3qJHTYMAXmMmGhEm/tracks",
+    "total": 14
+  },
+  "externalUrls": {
+    "externalUrls": {
+      "spotify": "https://open.spotify.com/playlist/2l3TWr3qJHTYMAXmMmGhEm"
+    }
+  }
+}

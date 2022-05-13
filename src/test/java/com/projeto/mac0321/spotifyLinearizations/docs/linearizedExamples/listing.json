@@ -1,0 +1,556 @@
+{
+  "href": "https://api.spotify.com/v1/users/22jflqpejdlh5idykdtcgzj3i/playlists?offset\u003d0\u0026limit\u003d20",
+  "items": [
+    {
+      "collaborative": false,
+      "externalUrls": {
+        "externalUrls": {
+          "spotify": "https://open.spotify.com/playlist/01YdiNLmLnbdar5YGEioWS"
+        }
+      },
+      "href": "https://api.spotify.com/v1/playlists/01YdiNLmLnbdar5YGEioWS",
+      "id": "01YdiNLmLnbdar5YGEioWS",
+      "images": [],
+      "name": "Sample playlist",
+      "owner": {
+        "displayName": "TaiShan",
+        "externalUrls": {
+          "externalUrls": {
+            "spotify": "https://open.spotify.com/user/22jflqpejdlh5idykdtcgzj3i"
+          }
+        },
+        "href": "https://api.spotify.com/v1/users/22jflqpejdlh5idykdtcgzj3i",
+        "id": "22jflqpejdlh5idykdtcgzj3i",
+        "type": "USER",
+        "uri": "spotify:user:22jflqpejdlh5idykdtcgzj3i"
+      },
+      "publicAccess": true,
+      "snapshotId": "MSw4ZWY1OTE1OTk5YWQ5MTZjNDgzZGJhMWFmNDI2OTk2NDNhYWM2ZmZi",
+      "tracks": {
+        "href": "https://api.spotify.com/v1/playlists/01YdiNLmLnbdar5YGEioWS/tracks",
+        "total": 0
+      },
+      "type": "PLAYLIST",
+      "uri": "spotify:playlist:01YdiNLmLnbdar5YGEioWS"
+    },
+    {
+      "collaborative": false,
+      "externalUrls": {
+        "externalUrls": {
+          "spotify": "https://open.spotify.com/playlist/3QXqREF1ODPwFyN1bvM655"
+        }
+      },
+      "href": "https://api.spotify.com/v1/playlists/3QXqREF1ODPwFyN1bvM655",
+      "id": "3QXqREF1ODPwFyN1bvM655",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://mosaic.scdn.co/640/ab67616d0000b2735b9c332f9f76cabc137e400fab67616d0000b273a755c6bb21be30245178a32dab67616d0000b273c1d0c06ad6ff88caf7426102ab67616d0000b273c95c25c00914c09bb806b39e",
+          "width": 640
+        },
+        {
+          "height": 300,
+          "url": "https://mosaic.scdn.co/300/ab67616d0000b2735b9c332f9f76cabc137e400fab67616d0000b273a755c6bb21be30245178a32dab67616d0000b273c1d0c06ad6ff88caf7426102ab67616d0000b273c95c25c00914c09bb806b39e",
+          "width": 300
+        },
+        {
+          "height": 60,
+          "url": "https://mosaic.scdn.co/60/ab67616d0000b2735b9c332f9f76cabc137e400fab67616d0000b273a755c6bb21be30245178a32dab67616d0000b273c1d0c06ad6ff88caf7426102ab67616d0000b273c95c25c00914c09bb806b39e",
+          "width": 60
+        }
+      ],
+      "name": "Duo",
+      "owner": {
+        "displayName": "TaiShan",
+        "externalUrls": {
+          "externalUrls": {
+            "spotify": "https://open.spotify.com/user/22jflqpejdlh5idykdtcgzj3i"
+          }
+        },
+        "href": "https://api.spotify.com/v1/users/22jflqpejdlh5idykdtcgzj3i",
+        "id": "22jflqpejdlh5idykdtcgzj3i",
+        "type": "USER",
+        "uri": "spotify:user:22jflqpejdlh5idykdtcgzj3i"
+      },
+      "publicAccess": false,
+      "snapshotId": "OCwzN2YxNTA2NGM4OGM2NWE0NDM2NGVkY2M2OTU5ZjJjMTkyMWJkYWVl",
+      "tracks": {
+        "href": "https://api.spotify.com/v1/playlists/3QXqREF1ODPwFyN1bvM655/tracks",
+        "total": 7
+      },
+      "type": "PLAYLIST",
+      "uri": "spotify:playlist:3QXqREF1ODPwFyN1bvM655"
+    },
+    {
+      "collaborative": false,
+      "externalUrls": {
+        "externalUrls": {
+          "spotify": "https://open.spotify.com/playlist/0di2olgUbnvhx4d95owwin"
+        }
+      },
+      "href": "https://api.spotify.com/v1/playlists/0di2olgUbnvhx4d95owwin",
+      "id": "0di2olgUbnvhx4d95owwin",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://mosaic.scdn.co/640/ab67616d0000b273153d79816d853f2694b2cc70ab67616d0000b273336ef546501006c6670af84bab67616d0000b2738d0212a10cc2d93289d29b32ab67616d0000b27390c6cad27771165c5d348187",
+          "width": 640
+        },
+        {
+          "height": 300,
+          "url": "https://mosaic.scdn.co/300/ab67616d0000b273153d79816d853f2694b2cc70ab67616d0000b273336ef546501006c6670af84bab67616d0000b2738d0212a10cc2d93289d29b32ab67616d0000b27390c6cad27771165c5d348187",
+          "width": 300
+        },
+        {
+          "height": 60,
+          "url": "https://mosaic.scdn.co/60/ab67616d0000b273153d79816d853f2694b2cc70ab67616d0000b273336ef546501006c6670af84bab67616d0000b2738d0212a10cc2d93289d29b32ab67616d0000b27390c6cad27771165c5d348187",
+          "width": 60
+        }
+      ],
+      "name": "Projeto",
+      "owner": {
+        "displayName": "TaiShan",
+        "externalUrls": {
+          "externalUrls": {
+            "spotify": "https://open.spotify.com/user/22jflqpejdlh5idykdtcgzj3i"
+          }
+        },
+        "href": "https://api.spotify.com/v1/users/22jflqpejdlh5idykdtcgzj3i",
+        "id": "22jflqpejdlh5idykdtcgzj3i",
+        "type": "USER",
+        "uri": "spotify:user:22jflqpejdlh5idykdtcgzj3i"
+      },
+      "publicAccess": false,
+      "snapshotId": "MTAxLDllM2U5NTg2MDVjYzg4ZTMzMzczMWI3NGJhYmVkYTdiYTk4YjA3Yjc\u003d",
+      "tracks": {
+        "href": "https://api.spotify.com/v1/playlists/0di2olgUbnvhx4d95owwin/tracks",
+        "total": 29
+      },
+      "type": "PLAYLIST",
+      "uri": "spotify:playlist:0di2olgUbnvhx4d95owwin"
+    },
+    {
+      "collaborative": false,
+      "externalUrls": {
+        "externalUrls": {
+          "spotify": "https://open.spotify.com/playlist/2l3TWr3qJHTYMAXmMmGhEm"
+        }
+      },
+      "href": "https://api.spotify.com/v1/playlists/2l3TWr3qJHTYMAXmMmGhEm",
+      "id": "2l3TWr3qJHTYMAXmMmGhEm",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://mosaic.scdn.co/640/ab67616d0000b2732253c41bfeac02997def39e2ab67616d0000b2735c3f7e4eefffbcfcc3efabbdab67616d0000b273686c29818cd37e585c48e7efab67616d0000b273d0f2985814178dda1665b1e8",
+          "width": 640
+        },
+        {
+          "height": 300,
+          "url": "https://mosaic.scdn.co/300/ab67616d0000b2732253c41bfeac02997def39e2ab67616d0000b2735c3f7e4eefffbcfcc3efabbdab67616d0000b273686c29818cd37e585c48e7efab67616d0000b273d0f2985814178dda1665b1e8",
+          "width": 300
+        },
+        {
+          "height": 60,
+          "url": "https://mosaic.scdn.co/60/ab67616d0000b2732253c41bfeac02997def39e2ab67616d0000b2735c3f7e4eefffbcfcc3efabbdab67616d0000b273686c29818cd37e585c48e7efab67616d0000b273d0f2985814178dda1665b1e8",
+          "width": 60
+        }
+      ],
+      "name": "Tiro Ao Álvaro",
+      "owner": {
+        "displayName": "TaiShan",
+        "externalUrls": {
+          "externalUrls": {
+            "spotify": "https://open.spotify.com/user/22jflqpejdlh5idykdtcgzj3i"
+          }
+        },
+        "href": "https://api.spotify.com/v1/users/22jflqpejdlh5idykdtcgzj3i",
+        "id": "22jflqpejdlh5idykdtcgzj3i",
+        "type": "USER",
+        "uri": "spotify:user:22jflqpejdlh5idykdtcgzj3i"
+      },
+      "publicAccess": false,
+      "snapshotId": "MTcsY2E1NTAxZDEyZTdiOTY5NmMxZjFkYWEzMDZlOTdmOWFlMzRiOTIwYw\u003d\u003d",
+      "tracks": {
+        "href": "https://api.spotify.com/v1/playlists/2l3TWr3qJHTYMAXmMmGhEm/tracks",
+        "total": 14
+      },
+      "type": "PLAYLIST",
+      "uri": "spotify:playlist:2l3TWr3qJHTYMAXmMmGhEm"
+    },
+    {
+      "collaborative": false,
+      "externalUrls": {
+        "externalUrls": {
+          "spotify": "https://open.spotify.com/playlist/53GD4mXPOGb0xmiiRjLX9d"
+        }
+      },
+      "href": "https://api.spotify.com/v1/playlists/53GD4mXPOGb0xmiiRjLX9d",
+      "id": "53GD4mXPOGb0xmiiRjLX9d",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://mosaic.scdn.co/640/ab67616d0000b273517d2393fb66fc4fcf4e2303ab67616d0000b2737c57ed79144aff3481a21fe4ab67616d0000b273ab06a988d7e18440efdef62cab67616d0000b273b9a5a409c4d7b344d9d30002",
+          "width": 640
+        },
+        {
+          "height": 300,
+          "url": "https://mosaic.scdn.co/300/ab67616d0000b273517d2393fb66fc4fcf4e2303ab67616d0000b2737c57ed79144aff3481a21fe4ab67616d0000b273ab06a988d7e18440efdef62cab67616d0000b273b9a5a409c4d7b344d9d30002",
+          "width": 300
+        },
+        {
+          "height": 60,
+          "url": "https://mosaic.scdn.co/60/ab67616d0000b273517d2393fb66fc4fcf4e2303ab67616d0000b2737c57ed79144aff3481a21fe4ab67616d0000b273ab06a988d7e18440efdef62cab67616d0000b273b9a5a409c4d7b344d9d30002",
+          "width": 60
+        }
+      ],
+      "name": "Oswaldo Cruz",
+      "owner": {
+        "displayName": "TaiShan",
+        "externalUrls": {
+          "externalUrls": {
+            "spotify": "https://open.spotify.com/user/22jflqpejdlh5idykdtcgzj3i"
+          }
+        },
+        "href": "https://api.spotify.com/v1/users/22jflqpejdlh5idykdtcgzj3i",
+        "id": "22jflqpejdlh5idykdtcgzj3i",
+        "type": "USER",
+        "uri": "spotify:user:22jflqpejdlh5idykdtcgzj3i"
+      },
+      "publicAccess": false,
+      "snapshotId": "MjIsMWRjODU2MjVkZDgwYzFhMDg1YTNhZTEwYTQ2MDcwYWQ5M2EwYjkxNw\u003d\u003d",
+      "tracks": {
+        "href": "https://api.spotify.com/v1/playlists/53GD4mXPOGb0xmiiRjLX9d/tracks",
+        "total": 21
+      },
+      "type": "PLAYLIST",
+      "uri": "spotify:playlist:53GD4mXPOGb0xmiiRjLX9d"
+    },
+    {
+      "collaborative": false,
+      "externalUrls": {
+        "externalUrls": {
+          "spotify": "https://open.spotify.com/playlist/4bRJv5CntOWBRBA88wU2ou"
+        }
+      },
+      "href": "https://api.spotify.com/v1/playlists/4bRJv5CntOWBRBA88wU2ou",
+      "id": "4bRJv5CntOWBRBA88wU2ou",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://mosaic.scdn.co/640/ab67616d0000b27316aaf05fe82237576a7d0e38ab67616d0000b2731813ea8f590a0aab2820f922ab67616d0000b2739173e50e99bdea2400222f02ab67616d0000b273c55bbd84d38b51dd60ef12f9",
+          "width": 640
+        },
+        {
+          "height": 300,
+          "url": "https://mosaic.scdn.co/300/ab67616d0000b27316aaf05fe82237576a7d0e38ab67616d0000b2731813ea8f590a0aab2820f922ab67616d0000b2739173e50e99bdea2400222f02ab67616d0000b273c55bbd84d38b51dd60ef12f9",
+          "width": 300
+        },
+        {
+          "height": 60,
+          "url": "https://mosaic.scdn.co/60/ab67616d0000b27316aaf05fe82237576a7d0e38ab67616d0000b2731813ea8f590a0aab2820f922ab67616d0000b2739173e50e99bdea2400222f02ab67616d0000b273c55bbd84d38b51dd60ef12f9",
+          "width": 60
+        }
+      ],
+      "name": "Cafona",
+      "owner": {
+        "displayName": "TaiShan",
+        "externalUrls": {
+          "externalUrls": {
+            "spotify": "https://open.spotify.com/user/22jflqpejdlh5idykdtcgzj3i"
+          }
+        },
+        "href": "https://api.spotify.com/v1/users/22jflqpejdlh5idykdtcgzj3i",
+        "id": "22jflqpejdlh5idykdtcgzj3i",
+        "type": "USER",
+        "uri": "spotify:user:22jflqpejdlh5idykdtcgzj3i"
+      },
+      "publicAccess": false,
+      "snapshotId": "MTgsZWE5ODM2ZDg2YzhkZTY4OGE0YTkwNmM5NjY4MjYzMDM2NzA5YmZhYw\u003d\u003d",
+      "tracks": {
+        "href": "https://api.spotify.com/v1/playlists/4bRJv5CntOWBRBA88wU2ou/tracks",
+        "total": 13
+      },
+      "type": "PLAYLIST",
+      "uri": "spotify:playlist:4bRJv5CntOWBRBA88wU2ou"
+    },
+    {
+      "collaborative": false,
+      "externalUrls": {
+        "externalUrls": {
+          "spotify": "https://open.spotify.com/playlist/4J00guy8T3S6J7bwiowurC"
+        }
+      },
+      "href": "https://api.spotify.com/v1/playlists/4J00guy8T3S6J7bwiowurC",
+      "id": "4J00guy8T3S6J7bwiowurC",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://mosaic.scdn.co/640/ab67616d0000b27327968a123014190a2003fbc5ab67616d0000b27365c41b8f6016f202a5e5d872ab67616d0000b27382a3560435840c14a72f6b6eab67616d0000b273cbae88784dc78510d0676d06",
+          "width": 640
+        },
+        {
+          "height": 300,
+          "url": "https://mosaic.scdn.co/300/ab67616d0000b27327968a123014190a2003fbc5ab67616d0000b27365c41b8f6016f202a5e5d872ab67616d0000b27382a3560435840c14a72f6b6eab67616d0000b273cbae88784dc78510d0676d06",
+          "width": 300
+        },
+        {
+          "height": 60,
+          "url": "https://mosaic.scdn.co/60/ab67616d0000b27327968a123014190a2003fbc5ab67616d0000b27365c41b8f6016f202a5e5d872ab67616d0000b27382a3560435840c14a72f6b6eab67616d0000b273cbae88784dc78510d0676d06",
+          "width": 60
+        }
+      ],
+      "name": "Weird songs from yesterday",
+      "owner": {
+        "displayName": "TaiShan",
+        "externalUrls": {
+          "externalUrls": {
+            "spotify": "https://open.spotify.com/user/22jflqpejdlh5idykdtcgzj3i"
+          }
+        },
+        "href": "https://api.spotify.com/v1/users/22jflqpejdlh5idykdtcgzj3i",
+        "id": "22jflqpejdlh5idykdtcgzj3i",
+        "type": "USER",
+        "uri": "spotify:user:22jflqpejdlh5idykdtcgzj3i"
+      },
+      "publicAccess": false,
+      "snapshotId": "MTYsMGM4ZmY5YWZmNWY2YTI3Mjc5NmFlZDdkYWNhZWFlMDJiNzMwNmM2MA\u003d\u003d",
+      "tracks": {
+        "href": "https://api.spotify.com/v1/playlists/4J00guy8T3S6J7bwiowurC/tracks",
+        "total": 22
+      },
+      "type": "PLAYLIST",
+      "uri": "spotify:playlist:4J00guy8T3S6J7bwiowurC"
+    },
+    {
+      "collaborative": false,
+      "externalUrls": {
+        "externalUrls": {
+          "spotify": "https://open.spotify.com/playlist/0a4LvNWb7I6uag9IzOM3Et"
+        }
+      },
+      "href": "https://api.spotify.com/v1/playlists/0a4LvNWb7I6uag9IzOM3Et",
+      "id": "0a4LvNWb7I6uag9IzOM3Et",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://mosaic.scdn.co/640/ab67616d0000b2735d48e2f56d691f9a4e4b0bdfab67616d0000b273a75cba83c2c8f9e7928e098bab67616d0000b273c1d0c06ad6ff88caf7426102ab67616d0000b273e259545b94392d48378ecb3c",
+          "width": 640
+        },
+        {
+          "height": 300,
+          "url": "https://mosaic.scdn.co/300/ab67616d0000b2735d48e2f56d691f9a4e4b0bdfab67616d0000b273a75cba83c2c8f9e7928e098bab67616d0000b273c1d0c06ad6ff88caf7426102ab67616d0000b273e259545b94392d48378ecb3c",
+          "width": 300
+        },
+        {
+          "height": 60,
+          "url": "https://mosaic.scdn.co/60/ab67616d0000b2735d48e2f56d691f9a4e4b0bdfab67616d0000b273a75cba83c2c8f9e7928e098bab67616d0000b273c1d0c06ad6ff88caf7426102ab67616d0000b273e259545b94392d48378ecb3c",
+          "width": 60
+        }
+      ],
+      "name": "Fingerstyle I guess",
+      "owner": {
+        "displayName": "TaiShan",
+        "externalUrls": {
+          "externalUrls": {
+            "spotify": "https://open.spotify.com/user/22jflqpejdlh5idykdtcgzj3i"
+          }
+        },
+        "href": "https://api.spotify.com/v1/users/22jflqpejdlh5idykdtcgzj3i",
+        "id": "22jflqpejdlh5idykdtcgzj3i",
+        "type": "USER",
+        "uri": "spotify:user:22jflqpejdlh5idykdtcgzj3i"
+      },
+      "publicAccess": false,
+      "snapshotId": "NixhYTcxMWVmMDc1NzFkYWUwOTM0ZWE5MzU2YTExMDkxZTAwYzA4MmVj",
+      "tracks": {
+        "href": "https://api.spotify.com/v1/playlists/0a4LvNWb7I6uag9IzOM3Et/tracks",
+        "total": 5
+      },
+      "type": "PLAYLIST",
+      "uri": "spotify:playlist:0a4LvNWb7I6uag9IzOM3Et"
+    },
+    {
+      "collaborative": false,
+      "externalUrls": {
+        "externalUrls": {
+          "spotify": "https://open.spotify.com/playlist/6cGI5dMSpcqFAtbcwwnkAQ"
+        }
+      },
+      "href": "https://api.spotify.com/v1/playlists/6cGI5dMSpcqFAtbcwwnkAQ",
+      "id": "6cGI5dMSpcqFAtbcwwnkAQ",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://mosaic.scdn.co/640/ab67616d0000b27349e3b7e85829da2fbc68bc46ab67616d0000b27366d1f6f5ce667d4d9cf8c2bdab67616d0000b2736e3d3c964df32136fb1cd594ab67616d0000b273b6d4566db0d12894a1a3b7a2",
+          "width": 640
+        },
+        {
+          "height": 300,
+          "url": "https://mosaic.scdn.co/300/ab67616d0000b27349e3b7e85829da2fbc68bc46ab67616d0000b27366d1f6f5ce667d4d9cf8c2bdab67616d0000b2736e3d3c964df32136fb1cd594ab67616d0000b273b6d4566db0d12894a1a3b7a2",
+          "width": 300
+        },
+        {
+          "height": 60,
+          "url": "https://mosaic.scdn.co/60/ab67616d0000b27349e3b7e85829da2fbc68bc46ab67616d0000b27366d1f6f5ce667d4d9cf8c2bdab67616d0000b2736e3d3c964df32136fb1cd594ab67616d0000b273b6d4566db0d12894a1a3b7a2",
+          "width": 60
+        }
+      ],
+      "name": "massa",
+      "owner": {
+        "displayName": "TaiShan",
+        "externalUrls": {
+          "externalUrls": {
+            "spotify": "https://open.spotify.com/user/22jflqpejdlh5idykdtcgzj3i"
+          }
+        },
+        "href": "https://api.spotify.com/v1/users/22jflqpejdlh5idykdtcgzj3i",
+        "id": "22jflqpejdlh5idykdtcgzj3i",
+        "type": "USER",
+        "uri": "spotify:user:22jflqpejdlh5idykdtcgzj3i"
+      },
+      "publicAccess": true,
+      "snapshotId": "NzM4LDhlZjY5MDZmMTE1N2QxOGRkMGM1ZGQ0M2FkOGNkZTJlMDI5NTkxM2U\u003d",
+      "tracks": {
+        "href": "https://api.spotify.com/v1/playlists/6cGI5dMSpcqFAtbcwwnkAQ/tracks",
+        "total": 690
+      },
+      "type": "PLAYLIST",
+      "uri": "spotify:playlist:6cGI5dMSpcqFAtbcwwnkAQ"
+    },
+    {
+      "collaborative": false,
+      "externalUrls": {
+        "externalUrls": {
+          "spotify": "https://open.spotify.com/playlist/1bWt778J6qUA6edBfGQn9d"
+        }
+      },
+      "href": "https://api.spotify.com/v1/playlists/1bWt778J6qUA6edBfGQn9d",
+      "id": "1bWt778J6qUA6edBfGQn9d",
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab67706c0000bebbee9b329598bfac659332c932"
+        }
+      ],
+      "name": ":)",
+      "owner": {
+        "displayName": "ka.g",
+        "externalUrls": {
+          "externalUrls": {
+            "spotify": "https://open.spotify.com/user/ka.g"
+          }
+        },
+        "href": "https://api.spotify.com/v1/users/ka.g",
+        "id": "ka.g",
+        "type": "USER",
+        "uri": "spotify:user:ka.g"
+      },
+      "publicAccess": false,
+      "snapshotId": "MTYxLDJjNzY3ZGNkYjI0Yzg0NWEwYzBlYTZhZTdkNjA0ZTdmMzhlYTQ2OTA\u003d",
+      "tracks": {
+        "href": "https://api.spotify.com/v1/playlists/1bWt778J6qUA6edBfGQn9d/tracks",
+        "total": 151
+      },
+      "type": "PLAYLIST",
+      "uri": "spotify:playlist:1bWt778J6qUA6edBfGQn9d"
+    },
+    {
+      "collaborative": false,
+      "externalUrls": {
+        "externalUrls": {
+          "spotify": "https://open.spotify.com/playlist/4lciPGPDijxmkvFFUUZ1GE"
+        }
+      },
+      "href": "https://api.spotify.com/v1/playlists/4lciPGPDijxmkvFFUUZ1GE",
+      "id": "4lciPGPDijxmkvFFUUZ1GE",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://mosaic.scdn.co/640/ab67616d0000b273188c8257c869c9672ce3d802ab67616d0000b27323aadddba5e96a7390d1669fab67616d0000b2738d12bc5e3ea5c9f4a967de32ab67616d0000b273fba6de0b38b0168d480b1a27",
+          "width": 640
+        },
+        {
+          "height": 300,
+          "url": "https://mosaic.scdn.co/300/ab67616d0000b273188c8257c869c9672ce3d802ab67616d0000b27323aadddba5e96a7390d1669fab67616d0000b2738d12bc5e3ea5c9f4a967de32ab67616d0000b273fba6de0b38b0168d480b1a27",
+          "width": 300
+        },
+        {
+          "height": 60,
+          "url": "https://mosaic.scdn.co/60/ab67616d0000b273188c8257c869c9672ce3d802ab67616d0000b27323aadddba5e96a7390d1669fab67616d0000b2738d12bc5e3ea5c9f4a967de32ab67616d0000b273fba6de0b38b0168d480b1a27",
+          "width": 60
+        }
+      ],
+      "name": "House",
+      "owner": {
+        "displayName": "TaiShan",
+        "externalUrls": {
+          "externalUrls": {
+            "spotify": "https://open.spotify.com/user/22jflqpejdlh5idykdtcgzj3i"
+          }
+        },
+        "href": "https://api.spotify.com/v1/users/22jflqpejdlh5idykdtcgzj3i",
+        "id": "22jflqpejdlh5idykdtcgzj3i",
+        "type": "USER",
+        "uri": "spotify:user:22jflqpejdlh5idykdtcgzj3i"
+      },
+      "publicAccess": false,
+      "snapshotId": "MzUsN2U4MWYxZTNkODRmMWY0ZGJiNmI1YzI0OGEzZDFjMTY3YTEzMTk2YQ\u003d\u003d",
+      "tracks": {
+        "href": "https://api.spotify.com/v1/playlists/4lciPGPDijxmkvFFUUZ1GE/tracks",
+        "total": 34
+      },
+      "type": "PLAYLIST",
+      "uri": "spotify:playlist:4lciPGPDijxmkvFFUUZ1GE"
+    },
+    {
+      "collaborative": false,
+      "externalUrls": {
+        "externalUrls": {
+          "spotify": "https://open.spotify.com/playlist/53FhPkkUNksozRWZaWNaqZ"
+        }
+      },
+      "href": "https://api.spotify.com/v1/playlists/53FhPkkUNksozRWZaWNaqZ",
+      "id": "53FhPkkUNksozRWZaWNaqZ",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://mosaic.scdn.co/640/ab67616d0000b2736e7bb273ff9cb1de1e1d4d0aab67616d0000b273b006a9c86a3ce55ba3ed8ba2ab67616d0000b273b30c8b93cef6fa26f8a7f17aab67616d0000b273efe812ae54f0698a32ccae14",
+          "width": 640
+        },
+        {
+          "height": 300,
+          "url": "https://mosaic.scdn.co/300/ab67616d0000b2736e7bb273ff9cb1de1e1d4d0aab67616d0000b273b006a9c86a3ce55ba3ed8ba2ab67616d0000b273b30c8b93cef6fa26f8a7f17aab67616d0000b273efe812ae54f0698a32ccae14",
+          "width": 300
+        },
+        {
+          "height": 60,
+          "url": "https://mosaic.scdn.co/60/ab67616d0000b2736e7bb273ff9cb1de1e1d4d0aab67616d0000b273b006a9c86a3ce55ba3ed8ba2ab67616d0000b273b30c8b93cef6fa26f8a7f17aab67616d0000b273efe812ae54f0698a32ccae14",
+          "width": 60
+        }
+      ],
+      "name": "Chá de Pêssego",
+      "owner": {
+        "displayName": "TaiShan",
+        "externalUrls": {
+          "externalUrls": {
+            "spotify": "https://open.spotify.com/user/22jflqpejdlh5idykdtcgzj3i"
+          }
+        },
+        "href": "https://api.spotify.com/v1/users/22jflqpejdlh5idykdtcgzj3i",
+        "id": "22jflqpejdlh5idykdtcgzj3i",
+        "type": "USER",
+        "uri": "spotify:user:22jflqpejdlh5idykdtcgzj3i"
+      },
+      "publicAccess": false,
+      "snapshotId": "MTQ1LDkwYjdmNDgzMGNlODIzNmE5NDQyNWVmMjkwZmNhMjU1YWNhNmE0YTM\u003d",
+      "tracks": {
+        "href": "https://api.spotify.com/v1/playlists/53FhPkkUNksozRWZaWNaqZ/tracks",
+        "total": 323
+      },
+      "type": "PLAYLIST",
+      "uri": "spotify:playlist:53FhPkkUNksozRWZaWNaqZ"
+    }
+  ],
+  "limit": 20,
+  "offset": 0,
+  "total": 12
+}

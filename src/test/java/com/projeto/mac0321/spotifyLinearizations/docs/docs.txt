@@ -1,0 +1,208 @@
+SpotifyUserService methods:
+    getCurrentUser
+        Arguments: None
+        Returns: User object
+
+SpotifyPlaylistService methods:
+    createPlaylist
+        Arguments: String userId, String playlistName
+        Returns: Playlist object
+
+    listUserPlaylists
+        Arguments: String userId
+        Returns: Paging<PlaylistSimplified> Object
+
+    getPlaylist
+        Arguments: String PlaylistId
+        Returns: Playlist object
+
+
+    addItemToPlaylist
+        Arguments: String playlistId
+        Returns: SnapshotResult Object
+
+    removeItemFromPlaylist
+        Arguments: String playlistId, JsonArray tracks
+        Returns SnapshotResult Object
+
+    unfollowPlaylist
+        Arguments: String playlistId
+        Returns: String
+        Unfollowing a playlist means it won't appear in user's library, effectively "deleting" it.
+
+SpotifySearchService methods:
+    searchItem
+        Arguments: String searchTerm, String type
+        Returns: SearchResult object
+
+
+User Object:
+    String                   "country"              // User's country
+    String                   "displayName"          // Human readable username
+    String                   "email"                // User's email
+    String                   "id"                   // User's id
+    String                   "type"                 //
+    String                   "product"              // User's spotify licence
+    String                   "href"                 // Spotify API link
+    String                   "uri"                  // Spotify internal link
+    ImageObject[]            "images"               //
+    ExternalUrlsParentObject "externalUrls"         //
+    FollowersObject          "followers"            //
+
+Playlist Object:
+    boolean                  "collaborative"        // Users other than owner can edit
+    boolean                  "publicAccess"         // Discoverable
+    String                   "name"                 //
+    String                   "id"                   // Playlist ID
+    String                   "type"                 //
+    String                   "description"          //
+    String                   "snapshotId"           //
+    String                   "href"                 //
+    String                   "uri"                  //
+    ExternalUrlsParentObject "externalUrls"         //
+    FollowersObject          "followers"            //
+    ImageObject[]            "images"               //
+    OwnerObject              "owner"                //
+    TracksObject             "tracks"               //
+
+Paging<PlaylistSimplified> Object:
+    String                   "href"                 //
+    int                      "limit"                // Maximum possible amount of items
+    int                      "offset"               // Starting index
+    int                      "total"                //
+    PlaylistSimplified[]     "items"                //
+
+PlaylistSimplified Object:
+    boolean                  "collaborative",       //
+    boolean                  "publicAccess",        //
+    String                   "id",                  //
+    String                   "href",                //
+    String                   "uri"                  //
+    String                   "name"                 //
+    String                   "type"                 //
+    String                   "snapshotId"           //
+    OwnerObject              "owner"                //
+    ImageObject[]            "images"               //
+    SimpleTracksObject       "tracks"               //
+    ExternalUrlsParentObject "externalUrls"         //
+
+SnapshotResult Object:
+    String                   "snapshotId"           //
+
+SearchResult Object:
+    int                      "limit"                // Number of results
+    int                      "offset"               // Starting index for results
+    int                      "total"                // Amount of possible results
+    String                   "href"                 // Spotify API link to search for items from "offset" to "offset + limit - 1"
+    String                   "next"                 // Reference to search from "offset + limit" to "offset + 2 * limit - 1"
+    SearchItemObject[]       "items"                //
+
+ExternalUrlsParentObject:
+    ExternalUrlsSonObject    "externalUrls"         //
+
+ExternalUrlsSonObject:
+    String                   "spotify"              // Public spotify link to object
+
+OwnerObject
+    String                   "displayName"          // Human readable name
+    String                   "id"                   // Owner's ID
+    String                   "type"                 // Type of owner
+    String                   "href"                 //
+    String                   "uri"                  //
+    ExternalUrlsParentObject "externalUrls"
+
+SimpleTracksObject
+    String                   "href"                 //
+    int                      "total"                // Total number of tracks
+
+ImageObject:
+    int                      "height"
+    int                      "width"
+    String                   "url"                  // URL to image
+
+SearchItemObject:
+    int                      "discNumber"           //
+    int                      "durationMs"           // Duration in millisec
+    int                      "popularity"           // Search probability indicator
+    int                      "trackNumber"          // Track index in album (starting from 1)
+    boolean                  "explicit"             //
+    String                   "name"                 // Human readable name
+    String                   "id"                   // Item ID
+    String                   "type"                 // Type of item
+    String                   "uri"                  //
+    String                   "href"                 //
+    String[]                 "availableMarkets"     // Codes for markets where item is available
+    ExternalUrlsParentObject "ExternalUrls"         //
+    ExternalIdsParentObject  "externalIds"          //
+    ArtistObject[]           "artists"              //
+    AlbumObject              "album"                // Album to which item belongs
+
+ExternalIdsParentObject:
+    ExternalIdsSonObject     "externalIds"          //
+
+ExternalIdsSonObject:
+    String                   "isrc"                 // International Standard Recording Code
+
+ArtistObject:
+    String                   "name"                 //
+    String                   "id"                   //
+    String                   "type"                 // Type of artist
+    String                   "uri"                  //
+    String                   "href"                 //
+    ExternalUrlsParentObject "externalUrls"         //
+    String[]                 "availableMarkets"     //
+
+AlbumObject:
+    String                   "albumType"            //
+    String                   "type"                 // Type of album, redundant
+    String                   "name"                 // Human readable name
+    String                   "id"                   //
+    String                   "releaseDate"          //
+    String                   "releaseDatePrecision" //
+    String                   "href"                 //
+    String                   "uri"                  //
+    ArtistObject[]           "artists"              //
+    String[]                 "availableMarkets"     //
+    ExternalUrlsParentObject "externalUrls"         //
+    ImageObject[]            "images"               //
+
+FollowersObject:
+    int                      "total"                // Total followers
+
+TracksObject:
+    int                      "limit"                // Number of tracks gathered
+    int                      "offset"               // Starting index
+    int                      "total"                // Amount of possible tracks to gather
+    String                   "href"                 //
+    PlaylistItemObject[]     "items"                //
+
+PlaylistItemObject:
+    boolean                  "isLocal"              // Downloaded or imported from disk
+    int                      "popularity"           //
+    int                      "trackNumber"          // Index on album
+    int                      "discNumber"           //
+    int                      "durationMs"           //
+    String                   "addedAt"              //
+    AddedByObject            "addedBy"              //
+    TrackObject              "track"                //
+
+AddedByObject:
+    String                   "id"                   //
+    String                   "uri"                  //
+    String                   "type"                 //
+    String                   "href"                 //
+    ExternalUrlsParentObj    "externalUrls"         //
+
+TrackObject:
+    boolean                  "explicit"             //
+    String                   "name"                 // Human readable track name
+    String                   "id"                   //
+    String                   "type"                 //
+    String                   "href"                 //
+    String                   "uri"                  //
+    String                   "previewUrl"           // Url to short version of song
+    String[]                 "availableMarkets"     //
+    ExternalIdsParentObject  "externalIds"          //
+    ExternalUrlsParentObject "externalUrls"         //
+    AlbumObject              "album"                //
+    ArtistObject[]           "artists"              //

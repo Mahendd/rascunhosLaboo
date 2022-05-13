@@ -1,0 +1,38 @@
+{
+  "collaborative": false,
+  "externalUrls": {
+    "externalUrls": {
+      "spotify": "https://open.spotify.com/playlist/01YdiNLmLnbdar5YGEioWS"
+    }
+  },
+  "followers": {
+    "total": 0
+  },
+  "href": "https://api.spotify.com/v1/playlists/01YdiNLmLnbdar5YGEioWS",
+  "id": "01YdiNLmLnbdar5YGEioWS",
+  "images": [],
+  "name": "Sample playlist",
+  "owner": {
+    "displayName": "TaiShan",
+    "externalUrls": {
+      "externalUrls": {
+        "spotify": "https://open.spotify.com/user/22jflqpejdlh5idykdtcgzj3i"
+      }
+    },
+    "href": "https://api.spotify.com/v1/users/22jflqpejdlh5idykdtcgzj3i",
+    "id": "22jflqpejdlh5idykdtcgzj3i",
+    "type": "USER",
+    "uri": "spotify:user:22jflqpejdlh5idykdtcgzj3i"
+  },
+  "publicAccess": true,
+  "snapshotId": "MSw4ZWY1OTE1OTk5YWQ5MTZjNDgzZGJhMWFmNDI2OTk2NDNhYWM2ZmZi",
+  "tracks": {
+    "href": "https://api.spotify.com/v1/playlists/01YdiNLmLnbdar5YGEioWS/tracks",
+    "items": [],
+    "limit": 100,
+    "offset": 0,
+    "total": 0
+  },
+  "type": "PLAYLIST",
+  "uri": "spotify:playlist:01YdiNLmLnbdar5YGEioWS"
+}
